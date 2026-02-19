@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel = "stylesheet" href = "style.css" />
+    <title>Word Guessing Game</title>
+</head>
+<body>
+    <h1>Word Guessing Game</h1>
+    
+    <div class = "container">
+        <p id="guess">Guess the word for a little surprise!</p>
+        <h6>Clue: Trust your gut.</h6>
+        <select id="select">
+            <option>None</option>
+            <option id="red" class="red">RED</option>
+            <option id="blue" class="blu">BLUE</option>
+            <option id="yellow" class="yell">YELLOW</option>
+            <option id="green" class="green">GREEN</option>
+            <option id="indigo" class="ind">INDIGO</option>
+            <option id="violet" class="vio">VIOLET</option>
+        </select>
+        <button id="btn" class="button" onclick="btn()">Check</button>
+    </div>
+    <button class="newG" onclick="newG()">New Game</button>
+    
+    <footer class = 'footer'>Programmed by Owen Bernardo III A. Pacao, BSIT2D</footer>
+    <script src = 'script.js' defer></script>
+</body>
+</html>
